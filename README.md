@@ -1,4 +1,5 @@
-**https://kelompok4-finalproject2.herokuapp.com**
+**Photo and comment**
+Aplikasi REST API sosial media sederhana, dimana user bisa mengupload foto dan memberikan komentar 
 * * *
 ## User
 - Register (POST)			: https://kelompok4-finalproject2.herokuapp.com/users/register
