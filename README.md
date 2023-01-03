@@ -1,23 +1,23 @@
-**Photo and comment**
-Aplikasi REST API sosial media sederhana, dimana user bisa mengupload foto dan memberikan komentar 
+## Photo and comment
 * * *
+Aplikasi REST API dimana user dapat menyimpan foto dan foto yang disimpan dapat diberi komentar. 
 ## User
-- Register (POST)			: https://kelompok4-finalproject2.herokuapp.com/users/register
-- Login	(POST)			: https://kelompok4-finalproject2.herokuapp.com/users/login
-- Update (PUT)		: https://kelompok4-finalproject2.herokuapp.com/users/:id
-- Delete	(DELETE)	: https://kelompok4-finalproject2.herokuapp.com/users/:id
+- Register (POST)			: api/users/register
+- Login	(POST)			: api/users/login
+- Update (PUT)		: api/users/:id
+- Delete	(DELETE)	: api/users/:id
 ## Photo
-- Create	(POST)	: https://kelompok4-finalproject2.herokuapp.com/photos/
-- Read (GET)	: https://kelompok4-finalproject2.herokuapp.com/photos/
-- Update	(PUT) : https://kelompok4-finalproject2.herokuapp.com/photos/:id
-- Delete (DELETE)	: https://kelompok4-finalproject2.herokuapp.com/photos/:id
+- Create	(POST)	: api/photos/
+- Read (GET)	: api/photos/
+- Update	(PUT) : api/photos/:id
+- Delete (DELETE)	: api/photos/:id
 ## Comment
-- Create (POST)	: https://kelompok4-finalproject2.herokuapp.com/comments/
-- Read	(GET)	: https://kelompok4-finalproject2.herokuapp.com/comments
-- Update (PUT)	: https://kelompok4-finalproject2.herokuapp.com/comments/:id
-- Delete DELETE	: https://kelompok4-finalproject2.herokuapp.com/comments/1
+- Create (POST)	: api/comments/
+- Read	(GET)	: api/comments
+- Update (PUT)	: api/comments/:id
+- Delete DELETE	: api/comments/1
 ## Social Media
-- Create (POST)	: https://kelompok4-finalproject2.herokuapp.com/socialmedias/
-- Read	(GET)	: https://kelompok4-finalproject2.herokuapp.com/socialmedias/
-- Update (PUT)	: https://kelompok4-finalproject2.herokuapp.com/socialmedias/:id
-- Delete	(DELETE)	: https://kelompok4-finalproject2.herokuapp.com/socialmedias/:id
+- Create (POST)	: api/socialmedias/
+- Read	(GET)	: api/socialmedias/
+- Update (PUT)	: api/socialmedias/:id
+- Delete	(DELETE)	: api/socialmedias/:id
